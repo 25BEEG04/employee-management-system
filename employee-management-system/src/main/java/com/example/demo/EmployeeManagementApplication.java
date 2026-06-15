@@ -7,11 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EmployeeManagementApplication {
 
     public static void main(String[] args) {
-
-        // TODO:
-        // Start Spring Boot application using SpringApplication.run()
-
-        // Hint:
-        // Pass this class name + args
+        SpringApplication.run(EmployeeApplication.class, args);
     }
 }
