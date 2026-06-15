@@ -1,17 +1,9 @@
-package com.example.demo.repository;
+package com.example.employee;
 
-// TODO: Import JpaRepository
-// TODO: Import Employee entity
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-// Hint:
-// This interface connects Java with Database
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
-public interface EmployeeRepository {
-
-    // TODO:
-    // Extend JpaRepository<Employee, Long>
-
-    // Hint:
-    // No methods needed here
-    // Spring provides everything automatically
 }
